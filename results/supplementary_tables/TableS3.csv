@@ -1,0 +1,41 @@
+﻿direction,model,strategy,target_label_percent,target_label_actual_percent_mean,macro_f1_mean,expansion_f1_mean
+Kunming -> Shenzhen,Logistic Regression,Source-only,0,0.0000000000,0.9183547053,0.9089579237
+Kunming -> Shenzhen,Logistic Regression,Target-only,1,1.0800123784,0.9728922291,0.9618605851
+Kunming -> Shenzhen,Logistic Regression,Source+Target,1,1.0800123784,0.9770276963,0.9758103600
+Kunming -> Shenzhen,Logistic Regression,Target-only,5,5.1114091244,0.9890160664,0.9855839040
+Kunming -> Shenzhen,Logistic Regression,Source+Target,5,5.1114091244,0.9876866527,0.9842520032
+Kunming -> Shenzhen,Logistic Regression,Target-only,10,10.0969080614,0.9937831232,0.9927809644
+Kunming -> Shenzhen,Logistic Regression,Source+Target,10,10.0969080614,0.9902262261,0.9872599955
+Kunming -> Shenzhen,Logistic Regression,Target-only,25,25.1909081702,0.9952002297,0.9954056345
+Kunming -> Shenzhen,Logistic Regression,Source+Target,25,25.1909081702,0.9926477303,0.9910662855
+Kunming -> Shenzhen,Logistic Regression,Full-target,100,100.0000000000,0.9940262017,0.9932592874
+Kunming -> Shenzhen,XGBoost,Source-only,0,0.0000000000,0.9862516189,0.9823961172
+Kunming -> Shenzhen,XGBoost,Target-only,1,1.0800123784,0.8880105178,0.8571307342
+Kunming -> Shenzhen,XGBoost,Source+Target,1,1.0800123784,0.9907194097,0.9880859473
+Kunming -> Shenzhen,XGBoost,Target-only,5,5.1114091244,0.9844083938,0.9792180716
+Kunming -> Shenzhen,XGBoost,Source+Target,5,5.1114091244,0.9914235712,0.9894028379
+Kunming -> Shenzhen,XGBoost,Target-only,10,10.0969080614,0.9914681265,0.9901710642
+Kunming -> Shenzhen,XGBoost,Source+Target,10,10.0969080614,0.9934980946,0.9924940480
+Kunming -> Shenzhen,XGBoost,Target-only,25,25.1909081702,0.9908113305,0.9886781223
+Kunming -> Shenzhen,XGBoost,Source+Target,25,25.1909081702,0.9931371329,0.9914635380
+Kunming -> Shenzhen,XGBoost,Full-target,100,100.0000000000,0.9921999572,0.9903747797
+Shenzhen -> Kunming,Logistic Regression,Source-only,0,0.0000000000,0.8456190962,0.7651715709
+Shenzhen -> Kunming,Logistic Regression,Target-only,1,1.0075499089,0.9130958053,0.8874683920
+Shenzhen -> Kunming,Logistic Regression,Source+Target,1,1.0075499089,0.9243697605,0.9064023917
+Shenzhen -> Kunming,Logistic Regression,Target-only,5,5.0011194468,0.9575096896,0.9481238400
+Shenzhen -> Kunming,Logistic Regression,Source+Target,5,5.0011194468,0.9528022058,0.9439627227
+Shenzhen -> Kunming,Logistic Regression,Target-only,10,10.0113726180,0.9616951814,0.9556758721
+Shenzhen -> Kunming,Logistic Regression,Source+Target,10,10.0113726180,0.9623111625,0.9559241966
+Shenzhen -> Kunming,Logistic Regression,Target-only,25,25.0264466321,0.9705662286,0.9660313754
+Shenzhen -> Kunming,Logistic Regression,Source+Target,25,25.0264466321,0.9710394927,0.9649527884
+Shenzhen -> Kunming,Logistic Regression,Full-target,100,100.0000000000,0.9758499382,0.9720615390
+Shenzhen -> Kunming,XGBoost,Source-only,0,0.0000000000,0.8922977732,0.8646454491
+Shenzhen -> Kunming,XGBoost,Target-only,1,1.0075499089,0.8636226058,0.8279940600
+Shenzhen -> Kunming,XGBoost,Source+Target,1,1.0075499089,0.9161351896,0.8952424926
+Shenzhen -> Kunming,XGBoost,Target-only,5,5.0011194468,0.9244116489,0.9054492130
+Shenzhen -> Kunming,XGBoost,Source+Target,5,5.0011194468,0.9412467966,0.9261665537
+Shenzhen -> Kunming,XGBoost,Target-only,10,10.0113726180,0.9456099444,0.9304576271
+Shenzhen -> Kunming,XGBoost,Source+Target,10,10.0113726180,0.9523527483,0.9396543843
+Shenzhen -> Kunming,XGBoost,Target-only,25,25.0264466321,0.9615395079,0.9532831271
+Shenzhen -> Kunming,XGBoost,Source+Target,25,25.0264466321,0.9623898967,0.9539356288
+Shenzhen -> Kunming,XGBoost,Full-target,100,100.0000000000,0.9709543534,0.9646719418

@@ -1,0 +1,11 @@
+﻿panel,category,outcome,spearman_rho,n_groups,n_pairs
+leave-one-city-out,Full 5-city,Macro-F1 gap,0.6210530000,5,20
+leave-one-city-out,Remove SZ,Macro-F1 gap,0.6853146853,4,12
+leave-one-city-out,Remove KM,Macro-F1 gap,0.7762237762,4,12
+leave-one-city-out,Remove WH,Macro-F1 gap,0.3776223776,4,12
+leave-one-city-out,Remove XA,Macro-F1 gap,0.5664335664,4,12
+leave-one-city-out,Remove BJ,Macro-F1 gap,0.6223776224,4,12
+within-target-vs-within-source,Within target: source selection,Macro-F1 gap,0.4000000000,5,4
+within-target-vs-within-source,Within source: target difficulty,Macro-F1 gap,0.6000000000,5,4
+within-target-vs-within-source,Within target: source selection,Expansion-F1 gap,0.4000000000,5,4
+within-target-vs-within-source,Within source: target difficulty,Expansion-F1 gap,0.8000000000,5,4

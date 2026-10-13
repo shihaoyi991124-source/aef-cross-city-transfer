@@ -1,0 +1,8 @@
+# Reference layout only. Existing calculation scripts use paths relative to the repository root.
+raw_exports: data/raw
+processed_data: data/processed
+source_tables: outputs/tables
+figure_source_tables: outputs/paper/source_data
+figure_output: outputs/paper/figures
+natural_earth_archive: data/reference/ne_10m_admin_1_states_provinces_v5.1.1.zip
+external_frozen_artifacts: outputs/frozen_external

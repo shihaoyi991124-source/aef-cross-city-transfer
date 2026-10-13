@@ -1,0 +1,11 @@
+﻿outcome,model,n_pairs,support_distance_beta,support_distance_standard_error,support_distance_ordinary_p,r_squared,delta_r_squared_vs_st
+Macro-F1 gap,Model 0,20,,,,0.0000000000,
+Macro-F1 gap,Model S,20,,,,0.0826749063,
+Macro-F1 gap,Model T,20,,,,0.5140963469,
+Macro-F1 gap,Model ST,20,,,,0.5597345109,
+Macro-F1 gap,Model STD,20,0.2681994132,0.1168701474,0.0446438516,0.7116102224,0.1518757115
+Expansion-F1 gap,Model 0,20,,,,0.0000000000,
+Expansion-F1 gap,Model S,20,,,,0.1045535283,
+Expansion-F1 gap,Model T,20,,,,0.5510497095,
+Expansion-F1 gap,Model ST,20,,,,0.6049837615,
+Expansion-F1 gap,Model STD,20,0.3275428226,0.1647201970,0.0748096475,0.7169164808,0.1119327193

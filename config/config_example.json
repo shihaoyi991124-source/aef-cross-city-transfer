@@ -1,0 +1,91 @@
+{
+  "project_name": "GeoAI_AEF",
+  "years": [2020, 2022, 2024],
+  "embedding_dimensions_per_year": 64,
+  "temporal_features": [
+    "D_20_22",
+    "D_22_24",
+    "D_20_24"
+  ],
+  "final_feature_count": 195,
+  "spatial_block_size_m": 2000,
+  "cities": {
+    "Shenzhen": {
+      "crs": "EPSG:32650"
+    },
+    "Kunming": {
+      "crs": "EPSG:32648"
+    },
+    "Wuhan": {
+      "crs": "EPSG:32650"
+    },
+    "Xian": {
+      "crs": "EPSG:32649"
+    },
+    "Beijing": {
+      "crs": "EPSG:32650"
+    }
+  },
+  "selected_multicity_cities": [
+    "Shenzhen",
+    "Kunming",
+    "Wuhan",
+    "Xian",
+    "Beijing"
+  ],
+  "stage_03": {
+    "random_seeds": [20261008, 20261009, 20261010, 20261011, 20261012],
+    "split": {
+      "train_fraction": 0.70,
+      "validation_fraction": 0.15,
+      "test_fraction": 0.15,
+      "search_candidates": 1500,
+      "warning_class_proportion_deviation": 0.05,
+      "severe_class_proportion_deviation": 0.10
+    },
+    "models": {
+      "Logistic Regression": {
+        "C": 1.0,
+        "max_iter": 2000,
+        "solver": "lbfgs"
+      },
+      "XGBoost": {
+        "n_estimators": 400,
+        "max_depth": 6,
+        "learning_rate": 0.08,
+        "subsample": 0.85,
+        "colsample_bytree": 0.85,
+        "min_child_weight": 1.0,
+        "reg_lambda": 1.0,
+        "early_stopping_rounds": 30,
+        "tree_method": "hist",
+        "n_jobs": 4
+      }
+    },
+    "go_no_go": {
+      "domain_auc_threshold": 0.75,
+      "cross_city_macro_f1_degradation_threshold": 0.08
+    }
+  },
+  "stage_04": {
+    "feature_set": "AEF-192",
+    "target_label_percentages": [1, 5, 10, 25],
+    "recovery_denominator_threshold": 0.02,
+    "selection_unit": "spatial_block",
+    "nested_sampling": true,
+    "adaptation_pool": "target_train_and_validation_blocks"
+  },
+  "stage_05": {
+    "feature_set": "AEF-192",
+    "knn_values": [1, 5, 10],
+    "primary_k": 5,
+    "bootstrap_resamples": 1000,
+    "bootstrap_seed": 20261008,
+    "bootstrap_unit": "2_km_target_block",
+    "domain_discrepancy_samples_per_city": 2000,
+    "mmd_bandwidth_sample_size": 1000,
+    "error_model": "XGBoost",
+    "error_distance_k": 5
+  }
+}
+

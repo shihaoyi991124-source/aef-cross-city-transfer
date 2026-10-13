@@ -1,0 +1,8 @@
+﻿"Target","Role","Mean single-source Macro-F1","Pooled Macro-F1","Gain","Uniform ensemble Macro-F1","Retrospective oracle Macro-F1"
+"Beijing","Development","0.952","0.975","0.022","0.967","0.971"
+"Kunming","Development","0.861","0.892","0.031","0.897","0.896"
+"Shenzhen","Development","0.947","0.991","0.043","0.977","0.986"
+"Wuhan","Development","0.968","0.990","0.022","0.987","0.985"
+"Xi'an","Development","0.948","0.983","0.035","0.971","0.974"
+"Chengdu","External","0.949","0.984","0.034","0.982","0.972"
+"Hangzhou","External","0.973","0.987","0.014","0.986","0.985"

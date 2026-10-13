@@ -1,0 +1,16 @@
+years: [2020, 2022, 2024]
+embedding_dimensions_per_year: 64
+final_model_features: AEF-192
+spatial_block_size_m: 2000
+seeds: [20261008, 20261009, 20261010, 20261011, 20261012]
+xgboost:
+  n_estimators: 400
+  max_depth: 6
+  learning_rate: 0.08
+  subsample: 0.85
+  colsample_bytree: 0.85
+  min_child_weight: 1.0
+  reg_lambda: 1.0
+  early_stopping_rounds: 30
+  tree_method: hist
+  n_jobs: 4

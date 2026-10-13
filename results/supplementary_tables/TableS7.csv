@@ -1,0 +1,6 @@
+﻿test,statistic_name,observed_statistic,exact_qap_one_sided_p,exact_qap_two_sided_p,permutations
+Overall distance vs Macro gap,Spearman rho,0.6210526316,0.0083333333,0.0083333333,120
+Class2 distance vs Expansion gap,Spearman rho,0.5278195489,0.0250000000,0.0250000000,120
+Overall distance vs cross-city Macro-F1,Spearman rho,-0.6616541353,0.0083333333,0.0083333333,120
+Macro fixed-effect distance beta,OLS distance beta,0.2681994132,0.0750000000,0.1333333333,120
+Expansion fixed-effect distance beta,OLS distance beta,0.3275428226,0.1083333333,0.2000000000,120

@@ -1,0 +1,10 @@
+# Observed local environment on 2026-10-13; bounds allow patch-level updates.
+numpy>=2.2,<2.3
+pandas>=2.3,<2.4
+pyarrow>=25,<26
+pyproj>=3.7,<3.8
+scikit-learn>=1.7,<1.8
+xgboost>=3.2,<3.3
+joblib>=1.6,<1.7
+matplotlib>=3.10,<3.11
+# Optional for Figure 2: geopandas>=1.1,<1.2

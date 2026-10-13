@@ -1,0 +1,11 @@
+﻿analysis_scope,target_city,source_city,candidate_sources,candidate_targets,macro_spearman_rho,expansion_spearman_rho,macro_exact_permutation_p_positive,expansion_exact_permutation_p_positive
+within-target source ranking,Shenzhen,,4.0000000000,,0.0000000000,0.0000000000,0.5416666667,0.5416666667
+within-target source ranking,Kunming,,4.0000000000,,0.0000000000,0.0000000000,0.5416666667,0.5416666667
+within-target source ranking,Wuhan,,4.0000000000,,0.8000000000,0.8000000000,0.1666666667,0.1666666667
+within-target source ranking,Xian,,4.0000000000,,0.6000000000,0.8000000000,0.2083333333,0.1666666667
+within-target source ranking,Beijing,,4.0000000000,,0.4000000000,0.4000000000,0.3750000000,0.3750000000
+within-source target difficulty,,Shenzhen,,4.0000000000,0.4000000000,0.8000000000,0.3750000000,0.1666666667
+within-source target difficulty,,Kunming,,4.0000000000,0.4000000000,-0.2000000000,0.3750000000,0.6250000000
+within-source target difficulty,,Wuhan,,4.0000000000,1.0000000000,1.0000000000,0.0416666667,0.0416666667
+within-source target difficulty,,Xian,,4.0000000000,0.6000000000,0.8000000000,0.2083333333,0.1666666667
+within-source target difficulty,,Beijing,,4.0000000000,0.8000000000,0.8000000000,0.1666666667,0.1666666667

@@ -1,0 +1,8 @@
+City,Role,Sample count,Longitude,Latitude,Point definition,Source parquet
+Shenzhen,Development,18000,114.07050251692786,22.6752891335019,Coordinate-wise median of frozen benchmark sample locations,data/processed/Shenzhen_AEF_195D.parquet
+Kunming,Development,18000,102.87301307016301,25.021360429852436,Coordinate-wise median of frozen benchmark sample locations,data/processed/Kunming_AEF_195D.parquet
+Wuhan,Development,18000,114.32121993275891,30.612339628750277,Coordinate-wise median of frozen benchmark sample locations,data/processed/Wuhan_AEF_195D.parquet
+Xian,Development,18000,109.00934701654886,34.197559435044994,Coordinate-wise median of frozen benchmark sample locations,data/processed/Xian_AEF_195D.parquet
+Beijing,Development,18000,116.52200256903555,40.05825850891314,Coordinate-wise median of frozen benchmark sample locations,data/processed/Beijing_AEF_195D.parquet
+Chengdu,External validation,18000,103.98686529960644,30.583190485163904,Coordinate-wise median of frozen benchmark sample locations,data/processed/external/Chengdu_External_AEF_195D.parquet
+Hangzhou,External validation,18000,120.00364860561132,30.200777978820383,Coordinate-wise median of frozen benchmark sample locations,data/processed/external/Hangzhou_External_AEF_195D.parquet

@@ -1,0 +1,4 @@
+city,xmin,ymin,xmax,ymax,window_size,n_stable_nonbuilt,n_stable_built,n_strict_expansion,selection_rule
+Shenzhen,198000,2510000,204000,2516000,6 km × 6 km,145,151,296,"2-km-aligned 6x6-km cells; require all 3 classes; maximize minimum class count, then total count; tie: lowest xmin then ymin"
+Kunming,300000,2792000,306000,2798000,6 km × 6 km,45,60,71,"2-km-aligned 6x6-km cells; require all 3 classes; maximize minimum class count, then total count; tie: lowest xmin then ymin"
+Chengdu,378000,3388000,384000,3394000,6 km × 6 km,59,46,49,"2-km-aligned 6x6-km cells; require all 3 classes; maximize minimum class count, then total count; tie: lowest xmin then ymin"

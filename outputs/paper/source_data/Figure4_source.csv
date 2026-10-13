@@ -1,0 +1,51 @@
+﻿metric,source_city,source_abbreviation,target_city,target_abbreviation,value,evaluation,seeds
+Macro-F1,Shenzhen,SZ,Shenzhen,SZ,0.9921999572,same-city,5
+Macro-F1,Shenzhen,SZ,Kunming,KM,0.8922977732,cross-city held-out target test,5
+Macro-F1,Shenzhen,SZ,Wuhan,WH,0.9641892099,cross-city held-out target test,5
+Macro-F1,Shenzhen,SZ,Xian,XA,0.9406810693,cross-city held-out target test,5
+Macro-F1,Shenzhen,SZ,Beijing,BJ,0.9563342387,cross-city held-out target test,5
+Macro-F1,Kunming,KM,Shenzhen,SZ,0.9862516189,cross-city held-out target test,5
+Macro-F1,Kunming,KM,Kunming,KM,0.9709543534,same-city,5
+Macro-F1,Kunming,KM,Wuhan,WH,0.9629029099,cross-city held-out target test,5
+Macro-F1,Kunming,KM,Xian,XA,0.9121333355,cross-city held-out target test,5
+Macro-F1,Kunming,KM,Beijing,BJ,0.9546251793,cross-city held-out target test,5
+Macro-F1,Wuhan,WH,Shenzhen,SZ,0.9677755379,cross-city held-out target test,5
+Macro-F1,Wuhan,WH,Kunming,KM,0.8001100351,cross-city held-out target test,5
+Macro-F1,Wuhan,WH,Wuhan,WH,0.9942269272,same-city,5
+Macro-F1,Wuhan,WH,Xian,XA,0.9726672768,cross-city held-out target test,5
+Macro-F1,Wuhan,WH,Beijing,BJ,0.9278021503,cross-city held-out target test,5
+Macro-F1,Xian,XA,Shenzhen,SZ,0.8770354987,cross-city held-out target test,5
+Macro-F1,Xian,XA,Kunming,KM,0.8621897093,cross-city held-out target test,5
+Macro-F1,Xian,XA,Wuhan,WH,0.9854319657,cross-city held-out target test,5
+Macro-F1,Xian,XA,Xian,XA,0.9913841674,same-city,5
+Macro-F1,Xian,XA,Beijing,BJ,0.9709424303,cross-city held-out target test,5
+Macro-F1,Beijing,BJ,Shenzhen,SZ,0.9581781361,cross-city held-out target test,5
+Macro-F1,Beijing,BJ,Kunming,KM,0.8894579084,cross-city held-out target test,5
+Macro-F1,Beijing,BJ,Wuhan,WH,0.9575943143,cross-city held-out target test,5
+Macro-F1,Beijing,BJ,Xian,XA,0.9681687526,cross-city held-out target test,5
+Macro-F1,Beijing,BJ,Beijing,BJ,0.9911910280,same-city,5
+Expansion-F1,Shenzhen,SZ,Shenzhen,SZ,0.9903747797,same-city,5
+Expansion-F1,Shenzhen,SZ,Kunming,KM,0.8646454491,cross-city held-out target test,5
+Expansion-F1,Shenzhen,SZ,Wuhan,WH,0.9573937986,cross-city held-out target test,5
+Expansion-F1,Shenzhen,SZ,Xian,XA,0.9328725311,cross-city held-out target test,5
+Expansion-F1,Shenzhen,SZ,Beijing,BJ,0.9562739504,cross-city held-out target test,5
+Expansion-F1,Kunming,KM,Shenzhen,SZ,0.9823961172,cross-city held-out target test,5
+Expansion-F1,Kunming,KM,Kunming,KM,0.9646719418,same-city,5
+Expansion-F1,Kunming,KM,Wuhan,WH,0.9571806857,cross-city held-out target test,5
+Expansion-F1,Kunming,KM,Xian,XA,0.9031035520,cross-city held-out target test,5
+Expansion-F1,Kunming,KM,Beijing,BJ,0.9459416611,cross-city held-out target test,5
+Expansion-F1,Wuhan,WH,Shenzhen,SZ,0.9534574209,cross-city held-out target test,5
+Expansion-F1,Wuhan,WH,Kunming,KM,0.7216282591,cross-city held-out target test,5
+Expansion-F1,Wuhan,WH,Wuhan,WH,0.9919407800,same-city,5
+Expansion-F1,Wuhan,WH,Xian,XA,0.9750536223,cross-city held-out target test,5
+Expansion-F1,Wuhan,WH,Beijing,BJ,0.9157392179,cross-city held-out target test,5
+Expansion-F1,Xian,XA,Shenzhen,SZ,0.8433770574,cross-city held-out target test,5
+Expansion-F1,Xian,XA,Kunming,KM,0.8120533071,cross-city held-out target test,5
+Expansion-F1,Xian,XA,Wuhan,WH,0.9823051855,cross-city held-out target test,5
+Expansion-F1,Xian,XA,Xian,XA,0.9898352095,same-city,5
+Expansion-F1,Xian,XA,Beijing,BJ,0.9627329961,cross-city held-out target test,5
+Expansion-F1,Beijing,BJ,Shenzhen,SZ,0.9431759046,cross-city held-out target test,5
+Expansion-F1,Beijing,BJ,Kunming,KM,0.8608893507,cross-city held-out target test,5
+Expansion-F1,Beijing,BJ,Wuhan,WH,0.9439211221,cross-city held-out target test,5
+Expansion-F1,Beijing,BJ,Xian,XA,0.9620031637,cross-city held-out target test,5
+Expansion-F1,Beijing,BJ,Beijing,BJ,0.9909958236,same-city,5

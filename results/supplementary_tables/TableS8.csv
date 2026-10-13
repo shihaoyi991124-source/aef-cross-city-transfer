@@ -1,0 +1,6 @@
+﻿model,formula,status,n_oof,mae,rmse,spearman_rho,oof_r_squared
+R0,training-pair mean,predefined,20,0.0374991643,0.0463046523,-0.3924091773,-0.2810029941
+R1,Macro gap ~ PCD_5NN,predefined,20,0.0300734709,0.0415116092,0.4932330827,-0.0295324225
+R2,Macro gap ~ PCD_5NN + source_same_city_error,predefined,20,0.0306624469,0.0416794405,0.5473684211,-0.0378740431
+R3,Macro gap ~ Global_5NN,predefined,20,0.0302297161,0.0416470081,0.4902255639,-0.0362594479
+R4,Macro gap ~ mean_entropy,post-hoc development candidate,20,0.0184704899,0.0272439878,0.8526315789,0.5565524670

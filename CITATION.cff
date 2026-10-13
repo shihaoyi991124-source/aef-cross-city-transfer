@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript when using this research code."
+title: "Cross-City Transfer Risk and Pooled-Source Training with Frozen AlphaEarth Foundations Embeddings for Urban Expansion Mapping"
+type: software
+authors:
+  - family-names: Shi
+    given-names: Haoyi
+    orcid: "https://orcid.org/0009-0008-2395-7119"
+  - family-names: Zuo
+    given-names: Xiaoqing
+    orcid: "https://orcid.org/0000-0001-9153-1920"
+  - family-names: Li
+    given-names: Yongfa
+    orcid: "https://orcid.org/0000-0002-6444-3332"
+  - family-names: Dong
+    given-names: Yujuan
+    orcid: "https://orcid.org/0009-0007-8610-8811"
