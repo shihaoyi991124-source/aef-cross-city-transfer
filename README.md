@@ -2,7 +2,7 @@
 
 Research code and selected aggregate result tables for a seven-city urban-expansion benchmark. Five development cities are Shenzhen, Kunming, Wuhan, Xi'an and Beijing; Chengdu and Hangzhou are frozen external targets. The study evaluates spatially held-out same-city and directed cross-city performance with 192 frozen annual AlphaEarth embedding features, diagnosis of representation mismatch, label-free-at-target-inference transfer-risk estimates, limited-label adaptation and pooled-source training.
 
-This repository contains research code, reproduction instructions, and selected aggregate results associated with the study. This local release candidate has not yet been uploaded. It contains no raw embedding matrix, sample-level coordinates or labels, source raster product, manuscript draft, credential or repository DOI. The paper's scientific content and data-availability statement are maintained separately.
+This repository contains research code, reproduction instructions, and selected aggregate results associated with the study. It contains no raw embedding matrix, sample-level coordinates or labels, source raster product, manuscript draft, credential or repository DOI. The paper's scientific content and data-availability statement are maintained separately.
 
 ## Layout and scope
 
